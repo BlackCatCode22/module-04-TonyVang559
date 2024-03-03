@@ -146,7 +146,7 @@ public class Animals {
         // Counting the occurrences of each species
         for (Animal animal : animals) {
             String species = animal.getSpecies();
-            speciesCount.put(species, speciesCount.getOrDefault(species, 0 ) + 1 );
+            speciesCount.put(species, speciesCount.getOrDefault(species, 0 ) + 1);
         }
 
         // Displaying species count
