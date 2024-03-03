@@ -102,7 +102,7 @@ class Bear extends Animal {
     }
 }
 
-public class AnimalsZoo {
+public class Animals {
     public static void main(String[] args) {
         // ArrayList to store animal instances
         ArrayList<Animal> animals = new ArrayList<>();
